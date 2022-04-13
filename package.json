@@ -1,0 +1,29 @@
+{
+  "name": "google-assistant-oauth",
+  "version": "1.0.0",
+  "description": "Simple utility for retrieving OAuth 2.0 tokens for access to Google Assistant SDK",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismarslomic/google-assistant-oauth.git"
+  },
+  "keywords": [
+    "google assistant",
+    "oauth"
+  ],
+  "author": "Ismar Slomic <ismar@slomic.no>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ismarslomic/google-assistant-oauth/issues"
+  },
+  "homepage": "https://github.com/ismarslomic/google-assistant-oauth#readme",
+  "dependencies": {
+    "google-auth-library": "^7.14.1",
+    "mkdirp": "^1.0.4",
+    "open": "^8.4.0",
+    "server-destroy": "^1.0.1"
+  }
+}

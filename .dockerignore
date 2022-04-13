@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+oauth
+client_secret.json
+tokens.json
+.npmrc
+.env
+Dockerfile
+.dockerignore
+.git
+.gitignore
