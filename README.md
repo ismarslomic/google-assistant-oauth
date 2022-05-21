@@ -4,6 +4,13 @@
 > Simple utility wrapped in Docker image for retrieving the OAuth 2.0 tokens for access to
 > [Google Assistant Service](https://developers.google.com/assistant/sdk/overview#google_assistant_service).
 
+## Get support
+
+Bugs and questions related to the source code and Docker image can be reported at
+[Github Issues](https://github.com/ismarslomic/google-assistant-oauth/issues) in the
+[ismarslomic/google-assistant-oauth](https://github.com/ismarslomic/google-assistant-oauth) repo.
+
+
 ## About
 
 In order to access the
