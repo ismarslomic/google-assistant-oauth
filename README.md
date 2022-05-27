@@ -37,12 +37,14 @@ see [ismarslomic/google-assistant-broadcast](https://github.com/ismarslomic/goog
       in [Configure an Actions Console project](https://developers.google.com/assistant/sdk/guides/service/python/embed/config-dev-project-and-account)
     - Make sure that you choose **"Device registration"** when creating new project in **Actions
       Console**
-    - Rename the downloaded file **from** `client_secret_****.apps.googleusercontent.com.json` **
-      to** `client_secret.json`
+    - Rename the downloaded file **from** `client_secret_****.apps.googleusercontent.com.json` **to** `client_secret.json`
 
 ### Run docker container with `docker run`
-Replace `/path/to/auth-folder` with full path to the folder where your `client_secret.json` file is
-located. 
+Replace `/home/pi/config` with full path to the folder where your `client_secret.json` file is
+located.
+
+> **Warning**
+> To avoid write permission issues inside containerplease use an folder with ownership of the OS user you are logged in with. Typically `/home/pi` on RPI or `/home/ubuntu` on Ubuntu.
 
 When docker container is terminated and the OAuth2 flow finished, you will find `tokens.json`
 file produced in the same folder.
@@ -50,7 +52,7 @@ file produced in the same folder.
 ```bash
 docker run --rm \
 -p 3005:3005 \
--v /path/to/auth-folder:/usr/src/config \
+-v /home/pi/config:/usr/src/config \
 ismarslomic/google-assistant-oauth:latest
 ```
 
