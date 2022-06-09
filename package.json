@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/ismarslomic/google-assistant-oauth#readme",
   "dependencies": {
-    "google-auth-library": "^7.14.1",
+    "google-auth-library": "^8.0.2",
     "mkdirp": "^1.0.4",
     "open": "^8.4.0",
     "server-destroy": "^1.0.1"
