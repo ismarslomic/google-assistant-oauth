@@ -37,6 +37,7 @@ see [ismarslomic/google-assistant-broadcast](https://github.com/ismarslomic/goog
       in [Configure an Actions Console project](https://developers.google.com/assistant/sdk/guides/service/python/embed/config-dev-project-and-account)
     - Make sure that you choose **"Device registration"** when creating new project in **Actions
       Console**
+    - **!Important!** Download the OAuth Client file from GCP Console / API & Services / Credentials page (not from Google Actions Console), read solution on issue [#7](https://github.com/ismarslomic/google-assistant-broadcast/issues/7#issuecomment-1151601639)
     - Rename the downloaded file **from** `client_secret_****.apps.googleusercontent.com.json` **to** `client_secret.json`
 
 ### Run docker container with `docker run`
