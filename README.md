@@ -45,7 +45,7 @@ Replace `/home/pi/config` with full path to the folder where your `client_secret
 located.
 
 > **Warning**
-> To avoid write permission issues inside containerplease use an folder with ownership of the OS user you are logged in with. Typically `/home/pi` on RPI or `/home/ubuntu` on Ubuntu.
+> To avoid write permission issues inside container, please use a folder with ownership of the OS user you are logged in with. Typically `/home/pi` on RPI or `/home/ubuntu` on Ubuntu.
 
 When docker container is terminated and the OAuth2 flow finished, you will find `tokens.json`
 file produced in the same folder.
